@@ -3,6 +3,10 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# Eclipse
+*.project
+*.classpath
+
 # User-specific files
 *.suo
 *.user
@@ -13,6 +17,9 @@
 *.userprefs
 
 # Build results
+.gradle/
+.settings/
+[Bb]in/
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
