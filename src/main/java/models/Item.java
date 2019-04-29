@@ -48,4 +48,8 @@ public class Item {
 	public BigDecimal getPrice() {
 		return price;
 	}
+
+	public Collection<String> getExtras() {
+		return extras;
+	}
 }
