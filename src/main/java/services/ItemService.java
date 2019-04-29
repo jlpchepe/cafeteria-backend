@@ -28,31 +28,51 @@ public class ItemService {
 					"Hamburguer",
 					"Tasty hamburguer with onion",
 					"https://images.unsplash.com/photo-1551615593-ef5fe247e8f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1380&q=80",
-					BigDecimal.valueOf(50)
+					BigDecimal.valueOf(50),
+					Arrays.asList(
+						"Bacon",
+			            "Mushroom",
+			            "Cheddar cheese"
+					)
 				),
 				new Item(
 					"Pizza",
 					"Delicious italian cheese pizza",
 					"https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?ixlib=rb-1.2.1&auto=format&fit=crop&w=1355&q=80",
-					BigDecimal.valueOf(40)
+					BigDecimal.valueOf(40),
+					Arrays.asList(
+						"Mushroom",
+			            "Pineapple"
+					)
 				),
 				new Item(
 					"Sandwich",
 					"Delicious italian cheese hamburguer",
 					"https://images.unsplash.com/photo-1521390188846-e2a3a97453a0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-					BigDecimal.valueOf(35)
+					BigDecimal.valueOf(35),
+					Arrays.asList(
+						"Bread",
+			            "Onion"
+					)
 				),
 				new Item(
 					"Salad",
 					"Delicious salad",
 					"https://images.unsplash.com/photo-1543339308-43e59d6b73a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-					BigDecimal.valueOf(60)
+					BigDecimal.valueOf(60),
+					Arrays.asList(
+						"Spinach",
+			            "Broccoli"
+					)
 				),
 				new Item(
 					"French fries",
 					"Salty french fries",
 					"https://images.unsplash.com/photo-1463183665146-ce2ed31df6b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-					BigDecimal.valueOf(20)
+					BigDecimal.valueOf(20),
+					Arrays.asList(
+						"Cheddar cheese"
+					)
 				)
 			);
 			
